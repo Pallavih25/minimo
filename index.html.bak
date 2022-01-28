@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+<title>minimo</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=PT+Sans:wght@400;700&family=Playfair+Display&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/css/style.css">
+</head>
+	<body>
+		<section class="heroimg">
+			<div class="container">
+				<div class="row mb-70">
+					<div class="col3">
+						<a href="index.html" class="logo">
+							minimø
+						</a>
+						</div>
+						<div class="col9">
+							<nav>
+								<ul class="navbar text-right">
+									<li><a href="javascript">lifestyle</a></li>
+									<li><a href="javascript">photodiary</a></li>
+									<li><a href="javascript">music</a></li>
+									<li><a href="javascript"class="mr-25">travel</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col12">
+							<img src="./assets/images/heroimg.jpg">
+						</div>
+					</div>
+            </div>
+		</section>
+		<section class="photodiary">
+			<div class="container">
+				<div class="row">
+					<div class="col10 m1-onegrid">
+						<p class="sectionlabel mb-30">
+							photodiary
+						</p>
+						<h2 class="infoheading mb-35">
+								The perfect weekend getaway
+						</h2>
+							<p class="infopara mb-55">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.		
+	                        </p>
+						
+						<div class="sectionlabel mb-135">
+							<p>leave a comment</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="thumbsection">
+			<div class="container">
+				<div class="row">
+					<div class="col10 m1-onegrid">
+						<div class="row">
+							<div class="col6">
+								<div class="thumbnail">
+									<div class="image">
+										<img src="./assets/images/boy.jpg" alt="">
+									</div>
+									<p class="sectionlabel mb-30">
+										lifestyle
+									</p>
+									<h2 class="infoheading mb-35">
+										More than just a music festival 
+									</h2>
+									<p class="infopara mb-135">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+									</p>
+							    </div>
+							</div>
+							<div class="col6">
+								<div class="thumbnail">
+									<div class="image">
+										<img src="./assets/images/cup.jpg" alt="">
+									</div>
+									<p class="sectionlabel mb-30">
+										lifestyle
+									</p>
+									<h2 class="infoheading mb-35">
+										Life tastes better with coffee 
+									</h2>
+									<p class="infopara mb-135">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+									</p>
+							    </div>
+							</div>	
+						</div>
+						<div class="row">
+							<div class="col6">
+								<div class="thumbnail">
+									<div class="image">
+										<img src="./assets/images/photodiary1.jpg" alt="">
+									</div>
+									<p class="sectionlabel mb-30">
+										lifestyle
+									</p>
+									<h2 class="infoheading mb-35">
+											American dream 
+									</h2>
+									<p class="infopara mb-120">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+									</p>
+							    </div>
+							</div>
+							<div class="col6">
+								<div class="thumbnail">
+									<div class="image">
+										<img src="./assets/images/photodiary2.jpg" alt="">
+									</div>
+									<p class="sectionlabel mb-30">
+										lifestyle
+									</p>
+									<h2 class="infoheading mb-35">
+										A day exploring the Alps
+									</h2>
+									<p class="infopara mb-120">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+									</p>
+							    </div>
+							</div>	
+						</div>
+					</div>
+                </div>
+			</div>
+		</section>
+		<section class="signup">
+			<div class="container">
+				<div class="row">
+					<div class="col4 m1-fourgrid">
+						<h2 class="singupheading mb-85">
+							Sign up for our newsletter!
+						</h2>
+						<div class="signupcontrol">
+							<input type="text" placeholder="Enter a valid email address">
+							<i class="fab fa-telegram-plane"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="thumbsection">
+			<div class="container">
+				<div class="row mrtop-100">
+					<div class="col10 m1-onegrid">
+						<div class="row">
+							<div class="col6">
+								<div class="thumbnail">
+									<div class="image">
+										<img src="./assets/images/lifestyle3.jpg" alt="">
+									</div>
+									<p class="sectionlabel mb-30">
+										lifestyle
+									</p>
+									<h2 class="infoheading mb-35">
+										Top 10 song for running 
+									</h2>
+									<p class="infopara mb-85">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+									</p>
+							    </div>
+							</div>
+							<div class="col6">
+								<div class="thumbnail">
+									<div class="image">
+										<img src="./assets/images/lifestyle4.jpg" alt="">
+									</div>
+									<p class="sectionlabel mb-30">
+										lifestyle
+									</p>
+									<h2 class="infoheading mb-35">
+										Cold winter days 
+									</h2>
+									<p class="infopara mb-85">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+									</p>
+							    </div>
+							</div>
+                            <div class="row">
+								<div class="col12">
+									<div class="button">
+										<input type="button" value="Load more" class="btn">
+									</div>
+                                </div>
+							</div>							
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col6">
+						<ul class="links">
+							<li><a href="javascript">Terms and conditions</a></li>
+							<li><a href="javascript">privacy</a></li>
+								
+						</ul>
+					</div>
+					<div class="col6">
+						<ul class="footer-icons">
+							<li>follow</li>		
+							<li><a href="javascript"><i class="fab fa-facebook-f"></i></a></li>			
+							<li><a href="javascript"><i class="fab fa-twitter"></i></a></li>	
+							<li><a href="javascript"><i class="fab fa-instagram"></i></a></li>		
+						</ul>							
+					</div>
+				</div>
+			</div>
+	   </section>
+    </body>
+</html>

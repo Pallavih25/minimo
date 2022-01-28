@@ -1,0 +1,222 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	font-family: 'Playfair Display', serif;
+	font-family: 'PT Sans', sans-serif;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~helper class~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.container{
+	width:1060px;
+	margin:0 auto;
+}
+a:link,
+a:hover,
+a:focus,
+a:active{
+	text-decoration:none;
+}
+.row,
+.row::after,
+.row::before{
+	clear:both;
+	display:table;
+	width:100%;
+}
+.row > :first-child{
+	padding-left:0;
+}
+.row > :last-child{
+	padding-right:0;
+}
+.text-right{
+	text-align:right;
+}
+.col3,.col9,.col10,.col12,.col6{
+	float:left;
+	padding:0 15px;
+}
+.col3{
+	width:25%;
+}
+.col9{
+	width:75%;
+}
+.col12{
+	width:100%;
+}
+.col10{
+	width:calc((100% * 10) / 12);
+}
+.col6{
+	width:50%;
+}
+.col4{
+	width:calc(100% / 3);
+}
+
+.mb-70{
+	margin-bottom:70px;
+}
+.mb-30{
+	margin-bottom:30px;
+}
+.mb-35{
+	margin-bottom:35px;
+}
+.mb-55{
+	margin-bottom:55px;
+}
+.mb-135{
+	margin-bottom:135px;
+}
+.mb-120{
+	margin-bottom:120px;
+}
+.mb-85{
+	margin-bottom:85px;
+}
+.mr-25{
+	margin-right:-25px;
+}
+.mrtop-100{
+	margin-top:100px;
+}
+.m1-onegrid{
+	margin-left:calc(100% / 12);
+}
+.m1-fourgrid{
+	margin-left:calc(100% / 3);
+}
+.pd-right{
+	padding-right:30px;
+}
+.pd-left{
+	padding-left:30px;
+}
+/* ~~~~~~~~~~~~~~~~heroimg section css~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.heroimg{
+	padding:70px 0px 100px;
+}
+.logo{
+	font-size:30px;
+	color:#000000;
+	text-transform:uppercase;
+	font-family: 'Inconsolata', monospace;
+}
+.navbar{
+	list-style:none;
+}
+.navbar li a{
+	color:#626262;
+	font-size:14px;
+	text-transform:uppercase;
+	padding:10px;
+	display:inline-block;
+}
+.navbar li{
+	display:inline-block;
+	list-style:none;
+	margin:0 12.5px;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~photodiary section css~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.sectionlabel{
+	text-transform:uppercase;
+	font-size:14px;
+	color:#b4ad9e;
+	font-family: 'Ubuntu', sans-serif;
+}
+.infoheading{
+	font-size:30px;
+	color:#626262;
+}
+.infopara{
+	color:#626262;
+	font-size:14px;
+	line-height:19px;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~lifestyle section css~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.thumbnail .image img{
+	/* width:100%; */
+	/* height:100%; */
+	margin-bottom:30px;
+}
+/* .thumbnail.image{ */
+	/* height:300px; */
+/* } */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~signup section css~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.signup{
+	padding:75px 0;
+	background-color:#f0f0f0;
+}
+.singupheading{
+	font-size:30px;
+	color:#333333;
+	text-align:center;
+	font-weight: lighter;
+}
+.signupcontrol input{
+	width:100%;
+	border:0px;
+	border-bottom:1px solid #000;
+	outline:none;
+	background-color:transparent;
+	padding:0px 7px;
+	height:30px;
+}
+.signupcontrol{
+	position:relative;
+}
+.signupcontrol i{
+	position:absolute;
+	font-size:30px;
+	color:#373735;
+	top:-5px;
+    right:5px;
+    transform: rotate(45deg);
+}
+
+.button{
+	text-align:center;
+}
+.btn{
+	padding:20px 25px;
+	cursor:pointer;
+    color:#626262;
+	font-size:20px;
+	background-color:#fff;
+	border:1px solid #626262;
+	margin-bottom:70px;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~footer section css~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.footer{
+	padding:43px 0 43px;
+	background-color:#f0f0f0;
+}
+.links li,.footer-icons li {
+	list-style:none;
+	display:inline-block;
+	font-size:14px;
+}
+.footer-icons{
+	text-align:right;
+}
+.links li a{
+	display:inline-block;
+	padding:8.5px;
+	font-size:14px;
+	color:#000;
+}
+.footer-icons li a{
+	display:inline-block;
+	padding:8.5px;
+	font-size:14px;
+	color:#626262;
+}
+.links li:first-child a{
+	padding-left:0px;
+}
+.footer-icons li:last-child a{
+	padding-right:0px;
+}
